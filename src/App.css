@@ -1,38 +1,33 @@
+/* These properties change the styling of the grid */
 .App {
-  text-align: center;
+  text-align: center; /* This causes the grid to be centered */
+  font-size: 0; /* This eliminates the spacing between elements in the grid */
+  margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .grid {
+  margin-top: 100px;
+} */
+
+.clear-btn {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  background: #5dc8cd;
+  padding: 12px 12px;
+  border: 0 none;
+  border-radius: 5px;
+}
+.clear-btn:hover {
+  background: #01939a;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.node {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  outline: 1px solid paleturquoise;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.paint {
+  background-color: darkblue;
 }
