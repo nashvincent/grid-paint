@@ -1,3 +1,10 @@
+## Grid Paint
+
+Basically just an app to paint over a grid. To be used as a base for future projects.
+
+![Screenshot](https://i.ibb.co/HX2XMnQ/localhost-3000.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
