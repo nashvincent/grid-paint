@@ -49,12 +49,14 @@ export default function Grid() {
     return updatedGrid
   }
 
+  // Handler fn to detect when the mouse is pressed
   const handleMouseDown = (row, col) => {
     const updatedGrid = getUpdatedGrid(row, col)
     setMouseIsPressed(true)
     setGrid(updatedGrid)
   }
 
+  // Handler fn to detect when the cursor enters a particular node
   const handleMouseEnter = (row, col) => {
     if (!mouseIsPressed) {
       //console.log('Mouse Not Pressed!')
@@ -64,6 +66,7 @@ export default function Grid() {
     setGrid(updatedGrid)
   }
 
+  // Handler fn to detect when the mouse is released
   const handleMouseUp = () => {
     setMouseIsPressed(false)
   }
